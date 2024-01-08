@@ -1,0 +1,358 @@
+/* Universal Selector all elements */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+/* header section style */
+.header-section {
+    background: rgba(229, 84, 115, 0.10);
+    height: 90vh;
+}
+
+.header-container {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-pic {
+    margin-top: 118px;
+}
+
+.header-title {
+    width: 708px;
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 80px;
+}
+
+.header-descrition {
+    width: 634px;
+    margin-top: 20px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.btn-primary {
+    margin-top: 20px;
+    display: inline-flex;
+    padding: 10px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* main section style */
+.feature-container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.feature-flower {
+    margin-top: 100px;
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.feature-description {
+    width: 594px;
+    margin: 20px auto;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.featuer-item {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pic {
+    width: 250px;
+    height: 400px;
+    margin: 50px;
+}
+
+.pic-title {
+    color: #272727;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration-line: underline;
+    margin-top: -30px;
+}
+
+.item1 {
+    width: 300px;
+    height: 450px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.item2 {
+    width: 300px;
+    height: 450px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15)
+}
+
+.item3 {
+    width: 300px;
+    height: 450px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15)
+}
+
+.customar-section {
+    width: 1050px;
+    margin: 0 auto;
+}
+
+.customar-item {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+
+.item-1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.item-2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.item-3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.pic-1 {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.ofer-section {
+    /* width: 900px; */
+    /* margin: 0 auto; */
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.ofer-continer {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.ofer-item {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.ofer-pic {
+    margin-left: 50px;
+}
+
+.ofer-title {
+    margin-bottom: 10px;
+    color: #272727;
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.primary {
+    color: #E55473;
+}
+
+.ofer-description {
+    width: 500px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.btn-secendery {
+    margin-top: 20px;
+    display: inline-flex;
+    padding: 10px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.inst-section {
+    margin-top: 100px;
+}
+
+.inst-featuer {
+    text-align: center;
+}
+
+.inst-featuer h2 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.inst-featuer p {
+    width: 594px;
+    margin: 10px auto;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.item-featuer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.item-a img {
+    width: 200px;
+    height: 200px;
+}
+
+.sub-section {
+    width: 882px;
+    margin: 0 auto;
+}
+
+.sub-title h2 {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.sub-title p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.sub-btn {
+    width: 120px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.news-leter {
+    background-image: url('../images/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 100px;
+    padding: 80px;
+}
+
+.sub-contianer form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.sub-contianer input {
+    width: 400px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+    flex-shrink: 0;
+    outline: none;
+}
+
+.sub-contianer input[type=email] {
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.sub-contianer input::placeholder {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* footer area section style */
+.footer-area {
+    margin-top: 80px;
+    background: #111010;
+    height: 250px;
+}
+
+.footer-a {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 60px;
+}
+
+.footer-description {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-title span {
+    color: #E55473;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.footer-title {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
